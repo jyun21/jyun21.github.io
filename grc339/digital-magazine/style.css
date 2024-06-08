@@ -25,7 +25,7 @@ main section.main h2, p {
 }
 
 h1{
-    width: 15em;
+    width: 10em;
     margin-top: 1em;
 }
 
@@ -263,7 +263,37 @@ button {
 }
 
 
-
+@media only screen and (prefers-color-scheme: dark) {
+    div.home-container {
+        background-color: #222;   
+    }
+    body {
+        background-color: #222;
+    }
+    div.container {
+        background-color: #222;
+    }
+    div.newsletter {
+        background-color: #222;
+    }
+    body.news {
+        background-color: #222;
+    }
+    p {
+        color:#F8F1E2;
+    }
+    aside {
+        background-color: #277FFF;
+    }
+    h1 {  
+        background-image: url("up2date-logo-alternative.svg");  
+        background-repeat: no-repeat;  
+        background-size: contain;  
+        }
+    h1 img {  
+        opacity: 0;  
+        }  
+}
 
 
 
@@ -402,6 +432,8 @@ button {
         flex: 0 0 4em;
     }
 }
+
+
 
 
 
